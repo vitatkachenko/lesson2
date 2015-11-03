@@ -1,0 +1,44 @@
+.ls2-mtitle {
+	text-align: center;
+	border: 3px dashed #B77B7B;
+	width: 100px;
+	margin: 0 auto;
+	background-color: #A29F67;
+}
+
+.table {
+	background-color: #FFFFFF;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 14px;
+	border-collapse: collapse;
+	text-align: center;
+	border: 0;
+	width: 100%;
+	margin: 20px;
+}
+
+.table td {
+	padding: 2%;
+	font-weight: normal;
+	padding: 10px 15px;
+	border-top: 1px solid #E8EDFF;
+}
+
+.table tr { 
+	font-weight: 700;
+}
+
+.table th {
+	padding: 15px 20px;
+	text-align: center;	
+}
+
+.striped {
+	width: 500px;
+}
+
+.table-striped tr:nth-child(2n) {
+	background: #E8EDFF;
+	font-weight: normal;
+	
+}
